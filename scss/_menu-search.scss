@@ -1,0 +1,18 @@
+.menu-search {
+  &__input {
+    border: none;
+    color: #000;
+    font-size: 14px;
+    width: 70%;
+
+    &:focus,
+    &:focus-visible {
+      border: none;
+      outline: none;
+    }
+
+    &::placeholder {
+      color: #000;
+    }
+  }
+}

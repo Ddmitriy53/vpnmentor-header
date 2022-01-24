@@ -1,0 +1,15 @@
+.header {
+  &__inner {
+    border-top: 3px solid #1d69a7;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, .5);
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+  }
+
+  &__menu {
+    margin-left: auto;
+  }
+}

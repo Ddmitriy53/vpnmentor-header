@@ -1,0 +1,56 @@
+.menu {
+  &-item {
+    &--switch {
+      display: flex;
+      align-items: center;
+
+      &--active {
+        .menu {
+          &-item {
+            &__arrow {
+              transform: rotate(270deg);
+            }
+          }
+
+          &-list {
+            &--switch {
+              display: grid;
+            }
+          }
+        }
+      }
+
+      &:hover {
+        .menu {
+          &-item {
+            &__title {
+              &--switch {
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &__button {
+      &--switch {
+        display: flex;
+        height: fit-content;
+        align-items: center;
+        padding: 8px 15px 8px 10px;
+        background-color: #0f5499;
+        border-radius: 3px;
+      }
+    }
+
+    &__title {
+      &--switch {
+        font-size: 17px;
+        font-weight: 300;
+        color: #fff;
+        margin-right: 15px;
+      }
+    }
+  }
+}

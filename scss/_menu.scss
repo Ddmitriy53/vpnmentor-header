@@ -1,0 +1,9 @@
+@import "menu-item";
+@import "menu-item--switch";
+@import "menu-list";
+@import "menu-list--switch";
+@import "menu-search";
+
+.menu {
+  display: flex;
+}

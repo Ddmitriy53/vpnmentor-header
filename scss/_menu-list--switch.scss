@@ -1,0 +1,25 @@
+.menu {
+  &-list {
+    &--switch {
+      display: none;
+      grid-template-rows: repeat(10, 1fr);
+      grid-auto-flow: column;
+      grid-gap: 5px 20px;
+      justify-content: space-between;
+      left: -115%;
+
+      & .menu-list__elem {
+        font-size: 14px;
+        font-weight: 400;
+        color: #333;
+        padding: 5px 20px;
+        line-height: 1.42857;
+        white-space: nowrap;
+
+        &::before {
+          content: none;
+        }
+      }
+    }
+  }
+}
